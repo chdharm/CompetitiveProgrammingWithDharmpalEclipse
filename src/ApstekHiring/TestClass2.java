@@ -6,7 +6,7 @@ class TestClass2 {
         int re=0;
         int cn=0;
         for(int i=index;i<arr.length;i=(i+cn)){
-            cn++;
+            cn++; 
             try{
             	int localsum=0;
                 for(int j=i;j<(i+cn);j++){
